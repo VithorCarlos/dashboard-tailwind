@@ -13,7 +13,7 @@ import {
 } from 'lucide-react'
 import { UsedSpaceWidget } from './UseSpaceWidget'
 import { Profile } from './Profile'
-import { InputControl, InputPrefix, InputRoot } from '../Input'
+import { InputControl, InputPrefix, InputRoot } from '../Form/Input'
 
 export function Sidebar() {
   return (
