@@ -10,9 +10,8 @@ import { Button } from '@/components/Button'
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl font-medium text-zinc-900">Settings</h1>
+      <h1 className=" text-3xl font-medium text-zinc-900">Settings</h1>
       <SettingsTabs />
-
       <div className="mt-6 flex flex-col">
         <div className="flex items-center justify-between border-b border-zinc-200 pb-5 ">
           <div className="space-y-1">
