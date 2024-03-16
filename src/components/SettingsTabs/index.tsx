@@ -8,10 +8,14 @@ export function SettingsTabs() {
   const [currentTab, setCurrentTab] = useState('my-details')
 
   return (
-    <Tabs.Root value={currentTab} onValueChange={setCurrentTab}>
+    <Tabs.Root
+      className="lg:px-4"
+      value={currentTab}
+      onValueChange={setCurrentTab}
+    >
       <ScrollArea.Root className="w-full " type="scroll">
         <ScrollArea.Viewport className="w-full overflow-x-scroll">
-          <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200">
+          <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200 dark:border-zinc-700">
             <TabItem
               value="my-details"
               title="My Details"
